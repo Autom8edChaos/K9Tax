@@ -1,7 +1,501 @@
-Naam;straatnaam;huisnummer;postcode;plaats;BSN;Wijkcode
-Jansen;van Tuylkade;31;3243BK;Utrecht;17389332;Codedrie
-De Vries;Donnerkade;15;3432ZC;Utrecht;13223134;Codedrie
-Cornelisse;Vinkenpad;12;3543AS;Utrecht;12113121;Codevijf
-Van der Vlught;Ypenburgse pad;45;3432GH;Utrecht;13323211;Codevijf
-Goedegebeure;Diependaalse dijk;12;3643FG;Utrecht;31441341;Codetwee
-Hanssen;Diependaalse dijk;12;3643FG;Utrecht;44341216;Codetwee
+Naam,straatnaam,huisnummer,postcode,plaats,BSN,Wijkcode
+van der Werff,Lucasbolwerk,13,3512EH,Utrecht,632543693,Codevier
+Pot,Vondellaan,6,3521GA,Utrecht,964687070,Codedrie
+Jaspers,Van Alphenstraat,2,3581JB,Utrecht,640227545,Codeeen
+Beekman,Rhenovalaan,2,3451HZ,Vleuten,500935142,Codeeen
+van Essen,Ina Boudier-Bakkerlaan,156,3582ZA,Utrecht,558560209,Codeeen
+Kooij,Vleutenseweg,420,3532HJ,Utrecht,810356740,Codetwee
+Jonkers,Willem Arntszkade,41,3515AK,Utrecht,750332384,Codevier
+Bakker,Dillestraat,3,3544CK,Utrecht,16863999,Codetwee
+Verheijen,Kievitstraat,11,3514VB,Utrecht,284808659,Codevier
+Bouwman,Edisonstraat,111,3553BR,Utrecht,759297198,Codetwee
+Feenstra,Nobelstraat,2,3512EN,Utrecht,122605755,Codevier
+Kuijper,Kozakkenweg,9,3582GV,Utrecht,959966353,Codeeen
+van Haren,St.-Jacobsstraat,42,3511BM,Utrecht,878742578,Codevijf
+de Koning,Lam+®rislaan,22,3571LC,Utrecht,107106656,Codeeen
+Janse,Alexandralaan,23,3455RZ,Haarzuilens,679963844,Codetwee
+Dekkers,Hopakker,24,3514BX,Utrecht,514786309,Codevier
+Beumer,Schroeder van der Kolkstraat,2,3511HS,Utrecht,525662,Codevijf
+Huizinga,Van Meursstraat,38,3532CH,Utrecht,192308993,Codetwee
+Bouman,Anna Boleyndreef,5,3561ST,Utrecht,698358314,Codeeen
+Verheij,Vlieland,69,3524AB,Utrecht,338840795,Codedrie
+Engels,Schoolstraat,3,3451AA,Vleuten,361640821,Codeeen
+van der Velde,Eduard K++nnekehof,2,3543HT,Utrecht,68243303,Codetwee
+Goedhart,Frederik Loewestraat,4,3543CK,Utrecht,587637596,Codetwee
+Ruiter,Amstelstraat,70,3522CM,Utrecht,6772316,Codedrie
+de Laat,Willemstraat,30,3511RH,Utrecht,820606923,Codevijf
+Versluis,Plantage,31,3551DG,Utrecht,776486263,Codetwee
+Stam,Nieuwlichtstraat,78,3552GW,Utrecht,656372072,Codetwee
+Schuurman,Croeselaan,125,3521CE,Utrecht,312140204,Codedrie
+van Hees,Korianderstraat,11,3544BN,Utrecht,170642409,Codetwee
+van der Vliet,Eykmanlaan,304,3571JK,Utrecht,376163999,Codeeen
+Bleeker,Richard Rodgersstraat,12,3543CN,Utrecht,998457516,Codetwee
+Pennings,Duurstedelaan,19,3525AM,Utrecht,298569917,Codedrie
+Zuidema,Tropen,1,3454RK,De Meern,894209073,Codetwee
+Beckers,Doyenn+®perenlaan,37,3452ED,Vleuten,397754863,Codeeen
+Westra,Korianderstraat,168,3544BS,Utrecht,870414616,Codetwee
+de Weerd,Wagendwarsstraat,43,3581WN,Utrecht,21509542,Codeeen
+Valk,Johan Wagenaarkade,46,3533TG,Utrecht,771378348,Codetwee
+Thijssen,Van Bijnkershoeklaan,17,3527XL,Utrecht,772285202,Codedrie
+van de Laar,Paulus Potterstraat,5,3583SN,Utrecht,454644644,Codeeen
+van der Heide,Robert Stolzlaan,20,3543JG,Utrecht,924967110,Codetwee
+Berendsen,Windstilte,341,3454SW,De Meern,841448887,Codetwee
+van der Heijden,Schooneggendreef,3,3562GG,Utrecht,913217864,Codeeen
+Stegeman,Marco Pololaan,437,3526GT,Utrecht,171681630,Codedrie
+Houben,Albert van Dalsumlaan,71,3584HB,Utrecht,12990115,Codeeen
+van Oosten,P.C. Borstraat,18,3515XZ,Utrecht,824527860,Codevier
+van de Wetering,Groeneweg,2,3531VA,Utrecht,226154956,Codetwee
+Tol,Willem Arntszkade,36,3515AJ,Utrecht,20469263,Codevier
+Verhoeven,Daalseweg,127,3555SW,Utrecht,597599798,Codetwee
+Smits,Livingstonelaan,324,3526HW,Utrecht,225013873,Codedrie
+Verheij,Milosdreef,35,3562VG,Utrecht,830927554,Codeeen
+Groeneveld,Rijksstraatweg,32,3545NA,Utrecht,298826562,Codetwee
+Swinkels,Vechtoever,7,3555SX,Utrecht,868313993,Codetwee
+de Jonge,Looplantsoen,53,3523GT,Utrecht,870067151,Codedrie
+Schmidt,Nieuwe Koekoekstraat,87,3514EC,Utrecht,83345814,Codevier
+Witteveen,Pieter Saenredamstraat,28,3583TB,Utrecht,847944517,Codeeen
+Kuipers,Heidetuinlaan,15,3452SE,Vleuten,445599765,Codeeen
+Jonker,Vinkertlaan,7,3552AJ,Utrecht,191156851,Codetwee
+Hofstede,Churchilllaan,11,3527GV,Utrecht,87615629,Codedrie
+de Rooij,Iepstraat,30,3581LK,Utrecht,832653858,Codeeen
+Krijnen,Shetlands,35,3524ED,Utrecht,368679305,Codedrie
+Klok,John F Kennedylaan,30,3451ZH,Vleuten,210083578,Codeeen
+Berkhout,Maria Theresiadreef,63,3561TB,Utrecht,170322439,Codeeen
+Haan,Molenbeekstraat,33,3521EV,Utrecht,775734238,Codedrie
+van der Kooij,Hunzestraat,5,3522EA,Utrecht,358437301,Codedrie
+de Nijs,Andreasstraat,19,3511VD,Utrecht,10724709,Codevijf
+Kusters,Wethouder D.M. Plompstraat,6,3555BT,Utrecht,648380853,Codetwee
+van Dongen,Prof. Reinwardtlaan,14,3571ER,Utrecht,866275642,Codeeen
+Klaassen,Nathana+½lspoort,11,3511VK,Utrecht,12432246,Codevijf
+de Visser,Jacob van Ruisdaelstraat,113,3583CH,Utrecht,271323206,Codeeen
+de Waard,Einsteindreef,82,3562XT,Utrecht,687188052,Codeeen
+Boersma,Reyer Anslostraat,103,3522DH,Utrecht,502257738,Codedrie
+Veldman,Ina Boudier-Bakkerlaan,103,3582XJ,Utrecht,96696904,Codeeen
+Jonkers,Ternatestraat,65,3531RX,Utrecht,438556860,Codetwee
+Schipper,Schroeder van der Kolkstraat,2,3511HS,Utrecht,635767636,Codevijf
+Bruin,Hamakerlaan,11,3571ZG,Utrecht,446907753,Codeeen
+Klaassen,Cremerplein,56,3532BZ,Utrecht,795293641,Codetwee
+Wessels,Coloradodreef,40,3565BV,Utrecht,957955881,Codeeen
+Smits,St.-Maartendreef,77,3564TB,Utrecht,648315587,Codeeen
+van der Ploeg,Huygensstraat,42,3521VM,Utrecht,47986621,Codedrie
+van Erp,Detmoldstraat,69,3523GE,Utrecht,791251378,Codedrie
+Baars,Nedereindseweg,543,3546PN,Utrecht,509466758,Codetwee
+den Boer,Makassarstraat,48,3531VK,Utrecht,297698461,Codetwee
+Roelofs,Cornelis Dirkszstraat,78,3554VN,Utrecht,185718449,Codetwee
+Kool,Rosweydelaan,10,3454BL,De Meern,104428405,Codetwee
+van Tol,Thoriumweg,1,3542AB,Utrecht,531271171,Codetwee
+van de Wiel,Bijlhouwerstraat,4,3511ZC,Utrecht,48168105,Codevijf
+van der Ven,Mozartlaan,19,3533GB,Utrecht,557113635,Codetwee
+Bartels,Ina Boudier-Bakkerlaan,140,3582XV,Utrecht,483175213,Codeeen
+Postma,Schutstraat,33,3551AB,Utrecht,453028810,Codetwee
+van Veen,Overwinningslaan,2,3527BT,Utrecht,206011581,Codedrie
+van der Sluis,Milosdreef,65,3562VH,Utrecht,339407116,Codeeen
+de Haan,Pearsonlaan,61,3527CB,Utrecht,755227694,Codedrie
+Mensink,Wolgadreef,99,3561CS,Utrecht,737767285,Codeeen
+Klijn,Wim Sonneveldlaan,77,3584ZP,Utrecht,722668971,Codeeen
+van den Boom,Wilhelminapark,50,3581NM,Utrecht,688223047,Codeeen
+de Geus,F. Koolhovenstraat,107,3555VH,Utrecht,739935227,Codetwee
+Snoek,Terschelling,139,3524AZ,Utrecht,747989199,Codedrie
+Rovers,Kaap Hoorndreef,22,3563AS,Utrecht,280122275,Codeeen
+Franssen,Weerdsingel O.Z.,38,3514AC,Utrecht,718863847,Codevier
+Hoogland,Adderwortel,23,3453VG,De Meern,950520354,Codetwee
+Koopman,Balderikstraat,197,3553BE,Utrecht,743767585,Codetwee
+Schot,Meloenstraat,18,3552VB,Utrecht,85877700,Codetwee
+Schipper,Sartreweg,106,3573PP,Utrecht,124159618,Codeeen
+van Wanrooij,Rooseveltlaan,306,3527AM,Utrecht,498732125,Codedrie
+van Driel,Van der Mondestraat,101,3515BL,Utrecht,843782638,Codevier
+Damen,De Vuursche,17,3452JT,Vleuten,746101569,Codeeen
+Hol,Vulcanusdreef,4,3561CA,Utrecht,178235817,Codeeen
+van der Veer,Vlijtstraat,8,3513SV,Utrecht,485549384,Codevier
+Gielen,Mesdaglaan,21,3451JG,Vleuten,113416891,Codeeen
+ter Horst,Alexander Numankade,16,3572KZ,Utrecht,747436794,Codeeen
+Heijnen,Pelikaanstraat,33,3582SE,Utrecht,783449446,Codeeen
+Coolen,Oudegracht,110,3511AG,Utrecht,751336701,Codevijf
+Venema,Arthur van Schendelstraat,734,3511MK,Utrecht,153806515,Codevijf
+Gerrits,Constant Erzeijstraat,64,3523VT,Utrecht,718058719,Codedrie
+Hartog,Afrikalaan,25,3526VK,Utrecht,527539235,Codedrie
+Reinders,Jan van Zutphenlaan,90,3555RA,Utrecht,122800576,Codetwee
+Bergman,Huis te Vlietlaan,15,3525CG,Utrecht,3479316,Codedrie
+van Hoof,Dorbeendreef,67,3561KE,Utrecht,803548138,Codeeen
+Wolters,Jekerstraat,1,3521EA,Utrecht,568075092,Codedrie
+de Geus,Goudesteinlaan,16,3555XZ,Utrecht,204386226,Codetwee
+van Leeuwen,Nassaustraat,43,3583XD,Utrecht,406048629,Codeeen
+van de Kamp,Westravenstraat,6,3522TC,Utrecht,937706061,Codedrie
+van der Veen,Patrimoniumstraat,21,3555GK,Utrecht,901011150,Codetwee
+Hoogeveen,Zuileveld,30,3451LB,Vleuten,32418668,Codeeen
+Wolters,Hermannus Elconiusstraat,102,3553VH,Utrecht,104293706,Codetwee
+van Bergen,Willem van Noortplein,8,3514GK,Utrecht,805718527,Codevier
+Swart,Weltevredenstraat,17,3531XS,Utrecht,337369859,Codetwee
+de Roos,Geertestraat,14,3511XE,Utrecht,191187379,Codevijf
+Vrolijk,Rietgraslaan,10,3451PK,Vleuten,890602384,Codeeen
+de Vos,Renstraat,13,3581TP,Utrecht,253474243,Codeeen
+Hagen,Prins Hendriklaan,33,3583EC,Utrecht,614269,Codeeen
+van der Molen,Van Leeuwenhoekplantsoen,5,3451ED,Vleuten,677032730,Codeeen
+van Zanten,Simplonbaan,250,3524GT,Utrecht,588785428,Codedrie
+van den Hoek,Oorsprongpark,5,3581ES,Utrecht,918237099,Codeeen
+Haan,Oudegracht,279,3511NW,Utrecht,99209160,Codevijf
+Reitsma,Laan 1954,59,3454CP,De Meern,974299558,Codetwee
+Slot,Detmoldstraat,74,3523GG,Utrecht,495854396,Codedrie
+van der Putten,Pimpernelstraat,42,3544BG,Utrecht,501031108,Codetwee
+Bos,Everard Zoudenbalchstraat,20,3552AK,Utrecht,892131974,Codetwee
+van Driel,Rijnweide,74,3451VK,Vleuten,786378888,Codeeen
+Hermans,Kanaalstraat,72,3531CL,Utrecht,636117662,Codetwee
+Hollander,Pahud de Mortangesdreef,284,3562AJ,Utrecht,986530190,Codeeen
+Geurts,Weerdsingel O.Z.,60,3514AG,Utrecht,233593664,Codevier
+Huizinga,Laan van Chartroise,53,3552ER,Utrecht,331151686,Codetwee
+Timmer,Pandoradreef,8,3561PJ,Utrecht,908936084,Codeeen
+van de Ven,Koningsweg,82,3582GK,Utrecht,848980761,Codeeen
+de Ridder,Everard Zoudenbalchstraat,9,3552AM,Utrecht,350126057,Codetwee
+Klein,Oltmansstraat,20,3532GS,Utrecht,156891979,Codetwee
+Kusters,Pastoraleperenlaan,4,3452EB,Vleuten,988555207,Codeeen
+Post,Parkstraat,43,3581PE,Utrecht,227107822,Codeeen
+Hofstede,Simon Vestdijkstraat,89,3544KL,Utrecht,506188401,Codetwee
+Veldhuis,Rijnlaan,113,3522BG,Utrecht,242827305,Codedrie
+van Boxtel,Distelstraat,24,3551TH,Utrecht,288318237,Codetwee
+Schot,Troubadourhof,25,3525GT,Utrecht,412449067,Codedrie
+van der Beek,Marshalllaan,203,3527TR,Utrecht,701184541,Codedrie
+Derks,1e Delistraat,3,3531SM,Utrecht,129957471,Codetwee
+van Dongen,Amsterdamsestraatweg,61,3513AH,Utrecht,61755424,Codevier
+Mohamed,Linschotensingel,17,3525XD,Utrecht,238293452,Codedrie
+Buitenhuis,Damstraat,15,3531BP,Utrecht,121684350,Codetwee
+Willems,Lombokstraat,48,3531RB,Utrecht,993816423,Codetwee
+Kamphuis,Emmalaan,18,3581HM,Utrecht,557891991,Codeeen
+Schreurs,Wijde Watersteeg,23,3511ZJ,Utrecht,729653298,Codevijf
+Kuiper,Muyskenweg,37,3553GL,Utrecht,150093238,Codetwee
+Rutten,Weerdsingel W.Z.,53,3513BE,Utrecht,988738995,Codevier
+Muller,Dickenslaan,34,3533BT,Utrecht,379115815,Codetwee
+Buitenhuis,Koningslaan,34,3583GH,Utrecht,14072191,Codeeen
+van Hoof,Herenstraat,26,3512KD,Utrecht,307382412,Codevier
+Joosten,Bretagne,6,3524RN,Utrecht,969970675,Codedrie
+van Esch,Henegouwen,71,3524RB,Utrecht,152420666,Codedrie
+Buis,Zwarte Woud,42,3524SN,Utrecht,360621259,Codedrie
+Bartels,Rijnlaan,119,3522BT,Utrecht,534084412,Codedrie
+Nijboer,Doornburglaan,7,3554EP,Utrecht,425974947,Codetwee
+Dam,Cremerplein,56,3532BZ,Utrecht,593726881,Codetwee
+Mohamed,Augusto Sandinostraat,258,3573ZB,Utrecht,532970366,Codeeen
+Scholte,Carmendreef,14,3561HZ,Utrecht,522729137,Codeeen
+van den Bosch,Poelhekkestraat,2,3532CN,Utrecht,377475853,Codetwee
+Scheffer,Washingtondreef,61,3564KC,Utrecht,20441228,Codeeen
+van der Meij,Aakplein,19,3534PG,Utrecht,764031314,Codetwee
+Mol,Albert van Dalsumlaan,558,3584HL,Utrecht,367442309,Codeeen
+van der Graaf,Nijverheidskade,4,3534AZ,Utrecht,136555706,Codetwee
+van der Pol,Aartsbisschop Romerostraat,25,3573AA,Utrecht,383942391,Codeeen
+Akkerman,Provence,56,3524RS,Utrecht,883845052,Codedrie
+Weber,Johannes de Bekastraat,15,3514VM,Utrecht,898755190,Codevier
+van Wijngaarden,Ivoordreef,193,3564AN,Utrecht,422120807,Codeeen
+van der Zwan,Zambesidreef,78,3564CB,Utrecht,425533505,Codeeen
+van Erp,Atlasdreef,99,3561AE,Utrecht,110440250,Codeeen
+van Kempen,Catharijnesingel,69,3511GL,Utrecht,635269417,Codevijf
+Habets,Paran+ídreef,131,3563WG,Utrecht,581738974,Codeeen
+Snijder,Groenmarktstraat,9,3521AV,Utrecht,219201183,Codedrie
+Groeneveld,De Milan Viscontilaan,52,3453RM,De Meern,986559453,Codetwee
+Damen,Herodotuslaan,25,3584AT,Utrecht,753817123,Codeeen
+Simons,Hekmeijerstraat,32,3572WG,Utrecht,786415691,Codeeen
+de Waal,Burgemeester van Tuyllkade,44,3553AB,Utrecht,248327252,Codetwee
+Bijl,Damzigt,59,3454PS,De Meern,740416236,Codetwee
+Franken,Elzas,26,3524RW,Utrecht,188737881,Codedrie
+Visscher,Achter St.-Pieter,4,3512HS,Utrecht,901686360,Codevier
+van der Sluis,Kenyadreef,49,3564CM,Utrecht,150612369,Codeeen
+Hulshof,Brazili+½dreef,15,3563CK,Utrecht,405151913,Codeeen
+Mulder,Theemsdreef,390,3562ER,Utrecht,85372559,Codeeen
+Berends,Korianderstraat,74,3544BP,Utrecht,656101076,Codetwee
+Akkerman,Mgr. van de Weteringstraat,92,3581EE,Utrecht,236476798,Codeeen
+Peeters,Van Diemenstraat,30,3531GG,Utrecht,238063859,Codetwee
+van Zon,Hanoidreef,269,3564HW,Utrecht,499586396,Codeeen
+Veen,Pieter Bernagiestraat,67,3522DC,Utrecht,462207407,Codedrie
+Kooij,Zambesidreef,69,3564CD,Utrecht,3331805,Codeeen
+Arends,Stationsstraat,5,3451BX,Vleuten,798999937,Codeeen
+Roelofs,Sweder van Zuylenweg,99,3553HJ,Utrecht,563102196,Codetwee
+Schippers,Maetsuykerstraat,183,3531HS,Utrecht,749900003,Codetwee
+Griffioen,Moezeldreef,342,3561GD,Utrecht,927689650,Codeeen
+van der Meulen,Nieuwe Koekoekstraat,35,3514EG,Utrecht,704561621,Codevier
+Ahmed,Bouwstraat,54,3572SP,Utrecht,625827661,Codeeen
+Scholte,Croeselaan,184,3521CJ,Utrecht,498284864,Codedrie
+Nijhof,Julianalaan,48,3451CZ,Vleuten,522778203,Codeeen
+Stoop,Stobberakplantsoen,58,3544TE,Utrecht,712133963,Codetwee
+Baas,Prof. Kohnstammstraat,58,3555WL,Utrecht,960869888,Codetwee
+de Groot,Galvanistraat,22,3553RD,Utrecht,982476942,Codetwee
+Nguyen,Balderikstraat,49,3553BB,Utrecht,284738979,Codetwee
+Veenstra,Rosweydelaan,49,3454BP,De Meern,520129763,Codetwee
+Donker,Atlasdreef,165,3561AH,Utrecht,452113933,Codeeen
+Witteveen,Oranje-Nassaulaan,1,3523VN,Utrecht,616279681,Codedrie
+Schoenmakers,Croeselaan,387,3521BX,Utrecht,947123313,Codedrie
+Geurts,Krommerijn,15,3582CR,Utrecht,270516979,Codeeen
+Koster,Ina Boudier-Bakkerlaan,57,3582VP,Utrecht,498390342,Codeeen
+Venema,Van Limburg Brouwerstraat,15,3532TT,Utrecht,362418238,Codetwee
+van Essen,Korfoedreef,10,3562SB,Utrecht,203383126,Codeeen
+van 't Hof,Aartsbisschop Romerostraat,206,3573AJ,Utrecht,876574915,Codeeen
+Claassen,Notebomenlaan,110,3582CN,Utrecht,182161535,Codeeen
+van Os,Ibisdreef,169,3564RH,Utrecht,703407673,Codeeen
+Laan,Giessenplein,40,3522KC,Utrecht,143202741,Codedrie
+van den Hurk,Hebriden,29,3524EA,Utrecht,925456123,Codedrie
+van den Heuvel,Van Everdingenlaan,51,3571NR,Utrecht,40214023,Codeeen
+de Graaff,Hendrika van Tussenbroekplantsoen,3,3533SX,Utrecht,255866720,Codetwee
+Veldhuizen,Jan Meijenhofje,6,3511RX,Utrecht,45065044,Codevijf
+Jans,Kanaalstraat,188,3531CG,Utrecht,134036505,Codetwee
+Schaap,Hoogstraat,49,3552XK,Utrecht,935304678,Codetwee
+van der Veer,Katherijn van Leemputdreef,46,3561TM,Utrecht,564514561,Codeeen
+de Nijs,Molenpark,6,3531EK,Utrecht,934958427,Codetwee
+Snijders,Admiraal van Gentstraat,33,3572XL,Utrecht,565651584,Codeeen
+Klomp,Rauwenhofflaan,75,3571HJ,Utrecht,984087448,Codeeen
+Bouma,Utenhamstraat,7,3451BR,Vleuten,235585191,Codeeen
+van de Ven,Aartsbisschop Romerostraat,334,3573AN,Utrecht,89412795,Codeeen
+Groenendijk,Zwarte Woud,12,3524SM,Utrecht,661536701,Codedrie
+Bosman,Rosweydelaan,10,3454BL,De Meern,413090061,Codetwee
+Schippers,Vossegatselaan,33,3583RP,Utrecht,619486089,Codeeen
+Knol,Koekoekstraat,33,3514CT,Utrecht,62903998,Codevier
+van der Putten,Veldhuizenlaan,14,3454EB,De Meern,529699886,Codetwee
+van Berkel,Zebradreef,157,3564PP,Utrecht,217044190,Codeeen
+Boon,Koekoekstraat,72,3514CV,Utrecht,292574009,Codevier
+Stegeman,Johan Winnubstlaan,21,3533EA,Utrecht,703310665,Codetwee
+Veldman,Peetersdreef,177,3562CH,Utrecht,949120042,Codeeen
+van der Zee,P.C. Borstraat,5,3515XW,Utrecht,142926103,Codevier
+van Boxtel,Sumatrastraat,40,3531PB,Utrecht,167557154,Codetwee
+de Bie,Eerste Oosterparklaan,132,3544AN,Utrecht,193687999,Codetwee
+Teunissen,Taagdreef,87,3561VK,Utrecht,167273711,Codeeen
+Dijkhuizen,Plompetorengracht,7,3512CA,Utrecht,369043662,Codevier
+Visscher,Wittevrouwensingel,24,3581GB,Utrecht,881604689,Codeeen
+Harmsen,Hoogravenseweg,78,3523TH,Utrecht,289513261,Codedrie
+Pijnenburg,Van Musschenbroekstraat,63,3514XL,Utrecht,231034672,Codevier
+Buijs,Amerongseberg,89,3524LN,Utrecht,258396854,Codedrie
+Kroeze,Van Wanroystraat,6,3451BP,Vleuten,881390185,Codeeen
+Mensink,Ibisdreef,381,3564RP,Utrecht,711188373,Codeeen
+van Kooten,Kalymnosdreef,117,3562XM,Utrecht,327778672,Codeeen
+van Wijk,Schoolstraat,39,3581PR,Utrecht,878384029,Codeeen
+van den Boom,Willemstraat,3,3511RJ,Utrecht,604699773,Codevijf
+van der Heide,Gruttostraat,10,3582TH,Utrecht,574759293,Codeeen
+Hamers,Boothstraat,13,3512BV,Utrecht,163439266,Codevier
+Franssen,Catharinaplaatjes,42,3453SL,De Meern,393162059,Codetwee
+Franssen,Acapulcodreef,51,3563RB,Utrecht,452711824,Codeeen
+van Schijndel,Bemuurde Weerd W.Z.,236,3513BJ,Utrecht,293349769,Codevier
+Mooij,Jazzboulevard,49,3543EA,Utrecht,950144435,Codetwee
+Schouten,Laan 1954,24,3454CN,De Meern,596264367,Codetwee
+Nijkamp,Van Brammendreef,173,3561XJ,Utrecht,349451230,Codeeen
+van Tol,Wageningseberg,373,3524LX,Utrecht,346002886,Codedrie
+de Nijs,Ina Boudier-Bakkerlaan,65,3582VT,Utrecht,748231018,Codeeen
+Timmer,Tigrisdreef,243,3564GR,Utrecht,264924514,Codeeen
+Ros,Alexander de Grotelaan,172,3526RE,Utrecht,957699815,Codedrie
+Molenaar,Adelaarstraat,11,3514CD,Utrecht,48362918,Codevier
+van der Zwan,Eisenhowerlaan,82,3527HJ,Utrecht,233571565,Codedrie
+Groeneveld,Johanniterhof,5,3544NG,Utrecht,495945122,Codetwee
+de Zwart,Wijnland,6,3451LA,Vleuten,477032369,Codeeen
+Schreuder,W.A. Vultostraat,91,3523TV,Utrecht,374255982,Codedrie
+Winter,Alexander de Grotelaan,184,3526RN,Utrecht,42911850,Codedrie
+Scheepers,Gildenkwartier,163,3511DG,Utrecht,117738335,Codevijf
+van Gils,Jo W++thrichlaan,13,3526XX,Utrecht,390938038,Codedrie
+van Egmond,Groenedijk,41,3544AB,Utrecht,455573815,Codetwee
+van Mierlo,Jeanne d'Arcdreef,90,3561SH,Utrecht,888834330,Codeeen
+van Doorn,Lange Vliet,6,3453LB,De Meern,17297916,Codetwee
+Jaspers,Daalseweg,208,3555SV,Utrecht,713623780,Codetwee
+Rademaker,Heycopplein,3,3521EX,Utrecht,741289131,Codedrie
+Evers,Laan van Nieuw-Guinea,13,3531JA,Utrecht,721310321,Codetwee
+Troost,Balearen,72,3524EL,Utrecht,631633601,Codedrie
+de Vos,Gerard Doustraat,7,3583SB,Utrecht,205515976,Codeeen
+Kuipers,Lotsydreef,6,3562BE,Utrecht,51380705,Codeeen
+Veldkamp,Laan van Minsweerd,87,3583BV,Utrecht,966356962,Codeeen
+Veldkamp,Zuid-oostraklaan,2,3544RJ,Utrecht,859176605,Codetwee
+van Hoof,Catharijnesingel,55,3511GD,Utrecht,702755709,Codevijf
+van Buuren,Theemsdreef,238,3562EL,Utrecht,538028476,Codeeen
+van den Berg,Gouderaklaan,31,3544RM,Utrecht,513069070,Codetwee
+de Kok,Jan van Zutphenlaan,6,3555SP,Utrecht,119877351,Codetwee
+de Beer,Burgemeester Norbruislaan,10,3555ED,Utrecht,234123254,Codetwee
+van Eijk,Werner Helmichstraat,65,3553JZ,Utrecht,139833559,Codetwee
+van de Velde,Monnetlaan,41,3527GM,Utrecht,208089202,Codedrie
+Krijnen,Bergstraat,2,3511RR,Utrecht,487110213,Codevijf
+de Haas,Spaaklaan,168,3527SG,Utrecht,171064653,Codedrie
+van Loon,Enthofstraat,22,3513GT,Utrecht,496068532,Codevier
+Vonk,Kwartelstraat,7,3514EV,Utrecht,319232724,Codevier
+Jonkers,John F Kennedylaan,15,3451ZD,Vleuten,143728805,Codeeen
+van Eijk,Kerkweg,38,3513VA,Utrecht,464724454,Codevier
+Mulder,Berkelstraat,148,3522ET,Utrecht,744494618,Codedrie
+Nijboer,Abraham Dolesteeg,9,3512PB,Utrecht,766340661,Codevier
+Nijenhuis,Engelen van Pijlsweertstraat,3,3513GE,Utrecht,228424021,Codevier
+Keizer,Lange Smeestraat,54,3511PV,Utrecht,857185652,Codevijf
+de Bruijn,Obbinklaan,97,3571NE,Utrecht,265477918,Codeeen
+Hermans,Dantelaan,121,3533VC,Utrecht,976310016,Codetwee
+van den Oever,Larixstraat,38,3552BK,Utrecht,948679967,Codetwee
+van der Hoeven,Lijnpadstraat,28,3511TS,Utrecht,66746280,Codevijf
+Jansen,Bessemerlaan,42,3553GA,Utrecht,770505156,Codetwee
+Gorter,Cambridgelaan,279,3584DZ,Utrecht,797710061,Codeeen
+Boersma,Diezestraat,7,3522GZ,Utrecht,68047812,Codedrie
+Nijland,Framboosstraat,50,3552GB,Utrecht,62205006,Codetwee
+van de Kamp,Sonoystraat,10,3554CA,Utrecht,200881735,Codetwee
+van Dooren,Catharijnesingel,57,3511GE,Utrecht,925125428,Codevijf
+Timmerman,Maliesingel,6,3581BA,Utrecht,315052636,Codeeen
+van der Vegt,W.J. Bossenbroekstraat,26,3555TA,Utrecht,684674002,Codetwee
+Schutte,Griftstraat,48,3572GX,Utrecht,489869804,Codeeen
+van 't Hof,De Gasperilaan,71,3527GD,Utrecht,947781328,Codedrie
+Veenstra,Weerdsingel W.Z.,40,3513BD,Utrecht,442510378,Codevier
+Feenstra,Goudesteinlaan,5,3555XT,Utrecht,188413625,Codetwee
+Goossens,Moskeeplein,1,3531BM,Utrecht,568414366,Codetwee
+Brinkman,2e Atjehstraat,3,3531SP,Utrecht,120534,Codetwee
+van Erp,Rooseveltlaan,211,3527AJ,Utrecht,529765676,Codedrie
+de Haan,Cremerstraat,202,3532BL,Utrecht,508748951,Codetwee
+Bergman,Prof. Broekemalaan,20,3571VB,Utrecht,592131440,Codeeen
+van Berkel,Richard Wagnerlaan,18,3533GD,Utrecht,784156384,Codetwee
+Krol,Stanleylaan,185,3526TE,Utrecht,471054422,Codedrie
+Drost,Joan R+Âellstraat,7,3551XJ,Utrecht,140628915,Codetwee
+van Pelt,Simplonbaan,78,3524GC,Utrecht,508570013,Codedrie
+van der Kolk,Miamidreef,41,3564KA,Utrecht,906864689,Codeeen
+Westra,Groenedijk,41,3544AB,Utrecht,738959868,Codetwee
+de Graaf,Willem Barentszstraat,18,3572PA,Utrecht,857310768,Codeeen
+Nijkamp,Jan Pieterszoon Coenstraat,48,3531EM,Utrecht,204562338,Codetwee
+van Ginkel,Van Bijnkershoeklaan,198,3527XE,Utrecht,133981502,Codedrie
+Veldman,Burgemeester Reigerstraat,30,3581KS,Utrecht,46549936,Codeeen
+Molenaar,Violenstraat,26,3551BC,Utrecht,651793002,Codetwee
+Dijkman,Herman Heijermansstraat,56,3451AL,Vleuten,631705740,Codeeen
+Lammers,Graadt van Roggenweg,87,3531AG,Utrecht,20845212,Codetwee
+Lemmens,Molenstraat,17,3512CL,Utrecht,907513438,Codevier
+Wouters,Rijksstraatweg,95,3454JH,De Meern,222153921,Codetwee
+van den Berg,Madameperenlaan,42,3452ER,Vleuten,604734967,Codeeen
+Ooms,Neckardreef,141,3562CM,Utrecht,496851809,Codeeen
+Krijgsman,Burgemeester Fockema Andreaelaan,100,3582KV,Utrecht,417882385,Codeeen
+de Vos,Croesestraat,64,3522AC,Utrecht,541929938,Codedrie
+Lamers,Energieweg,2,3542DZ,Utrecht,370738846,Codetwee
+Heemskerk,Chiosdreef,30,3562XH,Utrecht,534831291,Codeeen
+Akkerman,Marnixlaan,82,3552HG,Utrecht,532973963,Codetwee
+van Oorschot,Brandstraat,59,3511VE,Utrecht,50636674,Codevijf
+de Laat,Damstraat,23,3531BR,Utrecht,214330898,Codetwee
+de Ruijter,Ella Fitzgeraldplein,215,3543ET,Utrecht,313590138,Codetwee
+van Kessel,Wolvenstraat,36,3512CH,Utrecht,87999389,Codevier
+Snijders,Houtwerf,50,3451DD,Vleuten,963096102,Codeeen
+Veen,Gulperberg,34,3453RW,De Meern,348731176,Codetwee
+Coolen,Billie Holidaystraat,7,3543EJ,Utrecht,337195973,Codetwee
+van Santen,Koningslaan,107,3583GT,Utrecht,225971860,Codeeen
+Boonstra,Hollandse Toren,84,3511BN,Utrecht,777223090,Codevijf
+de Jongh,Van Vollenhovenlaan,478,3527JK,Utrecht,356745600,Codedrie
+Arts,Karmelietenhof,14,3512XR,Utrecht,752542941,Codevier
+Theunissen,Niftarlakeplantsoen,11,3554HT,Utrecht,913760195,Codetwee
+de Graaf,Dwergbieslaan,44,3452AK,Vleuten,138620830,Codeeen
+van den Brink,Zilverstraat,45,3511VB,Utrecht,779396364,Codevijf
+Steenbergen,Hekmeijerstraat,32,3572WG,Utrecht,234540783,Codeeen
+Veldhuis,Herenweg,29,3513CB,Utrecht,40686188,Codevier
+van Tilburg,Computerweg,4,3542DP,Utrecht,817512408,Codetwee
+van den Oever,Tannh+ñuserdreef,20,3561HE,Utrecht,450434539,Codeeen
+Blaauw,Vicuslaan,733,3454LE,De Meern,65133432,Codetwee
+Hartman,Slingeraklaan,68,3544SM,Utrecht,526578415,Codetwee
+Hermsen,Mandenmakerslaan,95,3454DG,De Meern,591092785,Codetwee
+Heijmans,Mabeliastraat,19,3454EA,De Meern,177150282,Codetwee
+Broekhuizen,Kerkweg,50,3513VB,Utrecht,980800274,Codevier
+van der Spek,Prof. Kohnstammstraat,20,3555WH,Utrecht,15990126,Codetwee
+van Rooij,Augusto Sandinostraat,7,3573ZC,Utrecht,405064809,Codeeen
+van der Linde,Anna Maria van Schurmanstraat,13,3521XB,Utrecht,260383326,Codedrie
+Geerts,Zandweg,175,3454HC,De Meern,248049859,Codetwee
+Bleeker,Pieter Nieuwlandstraat,27,3514HJ,Utrecht,904922765,Codevier
+Simons,Gildstraat,166,3572EV,Utrecht,612461117,Codeeen
+Vink,Westfalen,46,3524KE,Utrecht,884418078,Codedrie
+van Berkel,Nautilusweg,46,3542AT,Utrecht,133981253,Codetwee
+Stoop,Kantonnaleweg,7,3542DB,Utrecht,728447824,Codetwee
+Nijman,Tjepmahof,7,3525CL,Utrecht,48038076,Codedrie
+van der Veen,Gerretsonlaan,4,3571XT,Utrecht,12557638,Codeeen
+Veenstra,Spaarnestraat,26,3522VD,Utrecht,466602728,Codedrie
+van Gent,Naamrijk,1,3454PX,De Meern,355511083,Codetwee
+Claassen,Pepermuntstraat,33,3544CC,Utrecht,996596732,Codetwee
+Krol,Ananasstraat,17,3552TG,Utrecht,958711574,Codetwee
+van Soest,Potgieterstraat,25,3532VP,Utrecht,124539622,Codetwee
+van Hout,W.A. Vultostraat,4,3523TR,Utrecht,593839936,Codedrie
+van der Veen,'t Zand,21,3544NC,Utrecht,615135018,Codetwee
+Timmers,Van Heuven Goedhartlaan,105,3527CG,Utrecht,335429543,Codedrie
+Snijder,Laan van Nieuw-Guinea,13,3531JA,Utrecht,539549782,Codetwee
+Wassink,1e Daalsedijk,268,3513TL,Utrecht,138160399,Codevier
+de Waard,Boomgaardlaan,17,3551XN,Utrecht,49752662,Codetwee
+Arts,Ina Boudier-Bakkerlaan,211,3582ZP,Utrecht,299180347,Codeeen
+de Goede,Socrateslaan,40,3522EE,Utrecht,320105647,Codedrie
+Mohamed,Lam+®rislaan,315,3571LL,Utrecht,861962850,Codeeen
+Huisman,Lichtenberchdreef,70,3562RB,Utrecht,88949886,Codeeen
+van Oort,Cremerstraat,18,3532BE,Utrecht,47823938,Codetwee
+Verhagen,Griftkade,10,3572TX,Utrecht,510779797,Codeeen
+de Zeeuw,Parkzichtlaan,50,3544NV,Utrecht,293362385,Codetwee
+Smid,Springweg,79,3511VK,Utrecht,103956578,Codevijf
+Bakker,Van Rensselaerlaan,4,3526AP,Utrecht,523673826,Codedrie
+Visscher,Adenauerlaan,169,3527RL,Utrecht,870023822,Codedrie
+Meijer,Everard Zoudenbalchstraat,20,3552AK,Utrecht,736804134,Codetwee
+Muller,Boekelaan,131,3571XC,Utrecht,952322870,Codeeen
+van den Berg,Huetlaan,11,3553GN,Utrecht,10418684,Codetwee
+de Leeuw,Buys Ballotstraat,16,3572ZR,Utrecht,712197436,Codeeen
+Donkers,Edisonstraat,21,3553BK,Utrecht,39894137,Codetwee
+Arends,Kerkdwarsstraat,2,3581RH,Utrecht,155743430,Codeeen
+van der Vliet,Karel Doormanlaan,100,3572NK,Utrecht,790195975,Codeeen
+Verstappen,Kwangodreef,16,3564PE,Utrecht,290358218,Codeeen
+Verheul,Gildstraat,113,3572EL,Utrecht,854078071,Codeeen
+Schmidt,Koningslaan,97,3583GR,Utrecht,663698339,Codeeen
+Wouters,Heijcopperkade,7,3454PR,De Meern,412690676,Codetwee
+van der Heijden,Prof. Jan Bronnerlaan,685,3541AM,Utrecht,578962184,Codetwee
+Hartog,Kapelstraat,79,3572CK,Utrecht,207248011,Codeeen
+van der Putten,Arnodreef,63,3561GN,Utrecht,51769931,Codeeen
+Driessen,Kalymnosdreef,144,3562XN,Utrecht,277170783,Codeeen
+Hiemstra,Plesmanlaan,52,3555AP,Utrecht,513447933,Codetwee
+Bergman,Karawanken,35,3524DA,Utrecht,800318638,Codedrie
+Vissers,Slotlaan,87,3523HE,Utrecht,827798982,Codedrie
+van Tol,Laan 1954,59,3454CP,De Meern,92768763,Codetwee
+Franken,Meerndijk,4,3454HM,De Meern,858630059,Codetwee
+van Rijn,Westraklaan,33,3544RK,Utrecht,503990619,Codetwee
+Wassink,Antoniushof,28,3583ZA,Utrecht,999257687,Codeeen
+Linders,Baarsstraat,5,3525TN,Utrecht,688229694,Codedrie
+Groeneveld,Noltheniusstraat,38,3533SG,Utrecht,99276732,Codetwee
+Borst,Albert van Dalsumlaan,787,3584HR,Utrecht,68117140,Codeeen
+van Hees,St.-Eustatiusdreef,301,3564GG,Utrecht,428084230,Codeeen
+Bijl,Zonnebaan,33,3542EE,Utrecht,844662185,Codetwee
+van der Spek,Croeselaan,179,3521BM,Utrecht,471024557,Codedrie
+de Graaff,Strosteeg,77,3511VR,Utrecht,923810262,Codevijf
+Kramer,Hemelvuur,19,3454SV,De Meern,470218393,Codetwee
+van der Werf,Johan Willem Frisostraat,27,3583JT,Utrecht,271955235,Codeeen
+Slot,Weerdsingel W.Z.,25,3513BB,Utrecht,219349460,Codevier
+Goossens,F.C. Dondersstraat,35,3572JC,Utrecht,556582202,Codeeen
+Kramer,Maria Theresiadreef,29,3561TB,Utrecht,922646077,Codeeen
+Vos,Bekkerstraat,83,3572SE,Utrecht,841383923,Codeeen
+van der Molen,Maliebaan,68,3581CV,Utrecht,589767719,Codeeen
+van der Werf,Blauwkapelseweg,12,3572KA,Utrecht,633309618,Codeeen
+van Es,Gildstraat,113,3572EL,Utrecht,337196230,Codeeen
+Janssens,Claudiuslaan,14,3453KL,De Meern,132866638,Codetwee
+Brugman,Walnootstraat,12,3552GT,Utrecht,400836452,Codetwee
+van Rijswijk,Julianaweg,211,3525VL,Utrecht,472149982,Codedrie
+Keizer,Watertuinlaan,29,3452RH,Vleuten,790654660,Codeeen
+van der Zwan,Merwedestraat,4,3522XM,Utrecht,332104692,Codedrie
+Schipper,Aalbersestraat,3,3515EG,Utrecht,347015219,Codevier
+Schilder,Korte Lauwerstraat,11,3512VE,Utrecht,864167258,Codevier
+Hamers,Koningin Wilhelminalaan,53,3527LB,Utrecht,275018647,Codedrie
+Mooij,Van Ravesteijnstraat,27,3544LK,Utrecht,184819581,Codetwee
+Verheul,Nieuwegracht,44,3512LT,Utrecht,706296114,Codevier
+Visscher,Arnodreef,12,3561GJ,Utrecht,309457841,Codeeen
+Koot,Talmalaan,200,3515CZ,Utrecht,571213376,Codevier
+Nijkamp,Rietstraat,36,3552BM,Utrecht,318728242,Codetwee
+Schreurs,Rembrandtkade,7,3583TM,Utrecht,99170528,Codeeen
+Dekker,Weerdsingel O.Z.,16,3514AB,Utrecht,229882985,Codevier
+van Rossum,Flieruilensteeg,9,3514BL,Utrecht,922184975,Codevier
+van Ginkel,Charlotte van Pallandthof,18,3541VH,Utrecht,612315538,Codetwee
+Snel,Melkzwamsingel,5,3451HN,Vleuten,454333808,Codeeen
+Witteveen,Donaudreef,23,3561EM,Utrecht,536364734,Codeeen
+de Zwart,Dr. H.J. Lovinklaan,7,3571WD,Utrecht,255607520,Codeeen
+Burgers,Van Eechoudlaan,106,3526KC,Utrecht,932773370,Codedrie
+Kuiper,Europaplein,758,3526WP,Utrecht,841570231,Codedrie
+Zonneveld,Laan van Minsweerd,5,3583BA,Utrecht,158631808,Codeeen
+Verschuren,Vaartscherijnstraat,69,3523TB,Utrecht,749818256,Codedrie
+van Soest,Huetlaan,11,3553GN,Utrecht,969256577,Codetwee
+Baas,Johanniterweg,7,3544ND,Utrecht,777761087,Codetwee
+van Kessel,Molengraaffplantsoen,67,3571ZX,Utrecht,712993101,Codeeen
+Roest,Singelsteeg,4,3511HB,Utrecht,82748445,Codevijf
+Jonker,Rijnlaan,55,3522BP,Utrecht,227535133,Codedrie
+Hamers,Abstederdijk,119,3582BD,Utrecht,783889732,Codeeen
+Verkerk,Burgemeester Middelweerdbaan,3,3454HR,De Meern,714638985,Codetwee
+Mensink,Bangkokdreef,43,3564SE,Utrecht,139268285,Codeeen
+Yilmaz,Visarendhof,13,3582DR,Utrecht,384603877,Codeeen
+Schot,Livingstonelaan,614,3526JE,Utrecht,355053093,Codedrie
+van Ooijen,De Wadden,43,3524AG,Utrecht,635958168,Codedrie
+van Kempen,Frans Halsstraat,41,3583BM,Utrecht,204696173,Codeeen
+Feenstra,Edisonstraat,135,3553BX,Utrecht,685038221,Codetwee
+Verhoeven,Schaarsbeekstraat,11,3521EW,Utrecht,323866761,Codedrie
+van Dijk,Ridderplantsoen,33,3523HX,Utrecht,722864863,Codedrie
+Roest,Van Vollenhovenlaan,159,3527JD,Utrecht,790475650,Codedrie
+van den Oever,Palmstraat,32,3572TD,Utrecht,980111596,Codeeen
+de Winter,Palembangstraat,10,3531EG,Utrecht,674936048,Codetwee
+Dam,Leidseweg,54,3531BC,Utrecht,764383176,Codetwee
+van Oosterhout,Maliebaan,17,3581CB,Utrecht,410527282,Codeeen
+Verweij,Oudwijkerdwarsstraat,19,3581LD,Utrecht,756692593,Codeeen
+Hartman,Bruntenhof,4,3512KZ,Utrecht,613714660,Codevier
+Groeneveld,Rooseveltlaan,793,3526BL,Utrecht,7486789,Codedrie
+van Dam,Ch+® Guevarastraat,19,3573BK,Utrecht,266461797,Codeeen
+Schouten,Kruisstraat,230,3581GK,Utrecht,908972830,Codeeen
+Otten,Cornelis Roobolstraat,79,3554BV,Utrecht,60830554,Codetwee
+Valk,Dommeringdreef,98,3562AN,Utrecht,896380919,Codeeen
+Veen,Voreneng,26,3452NL,Vleuten,555139116,Codeeen
