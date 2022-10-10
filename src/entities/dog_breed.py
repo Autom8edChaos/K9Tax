@@ -13,3 +13,10 @@ class DogBreed(BaseModel):
     breed_group = TextField()
     popularity = IntegerField()
 
+class Dog(BaseModel):
+    name = TextField()
+    id = IntegerField()
+    owner_bsn = TextField()
+    breed = TextField()
+    date_of_birth = TextField()
+    date_of_death = TextField()

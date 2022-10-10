@@ -1,15 +1,14 @@
 import pandas as pd
-from src.entities.dog_breed import DogBreed
+from src.entities.dog_breed import DogBreed, Dog
+from abc import ABC, abstractmethod
 from peewee import *
 
-class BreedLoader():
-    name_stg = 'stg_Breed'
-    name_raw = 'raw_Breed'
-    columns = ['name', 'breed_group', 'popularity']
-    
-    def __init__(self, peewee_database):
-        self.pw_db = peewee_database
-        self.connection = peewee_database.connection()
+
+class StagingLoader(ABC):
+    def __init__(self, name_stg, peewee_db):
+        self.pw_db = peewee_db
+        self.connection = peewee_db.connection()
+        self.name_stg = name_stg
 
     def load_staging(self, source):
         data = pd.read_csv(source)
@@ -17,17 +16,49 @@ class BreedLoader():
         
     def _load_staging_data(self, data):
         data.to_sql(self.name_stg, self.connection, if_exists='replace', index=False)
+        
+    def _fetch_all(self, columns: list):
+        cursor = self.connection.execute(
+            f'SELECT {",".join(columns)} FROM {self.name_stg}'
+        )
+        return cursor.fetchall()
+
+
+class RawLoader():
+    def _load_raw(self, model):
+        db = self.pw_db
+        db.create_tables([model])
+        
+        data = self._fetch_all(self.col_mapping.keys())
+        fields = self.col_mapping.values()
+        model.insert_many(data, fields=fields).execute()
+
+class BreedLoader(StagingLoader, RawLoader):
+    col_mapping = {
+        'name': DogBreed.name,
+        'breed_group': DogBreed.breed_group,
+        'popularity': DogBreed.popularity
+    }
+    
+    def __init__(self, peewee_database):
+        super().__init__('stg_Breed', peewee_database)
 
     def load_raw(self):
-        db = self.pw_db
-        db.create_tables([DogBreed])
-        
-        cursor = self.connection.execute(
-            f'SELECT {",".join(self.columns)} FROM {self.name_stg}'
-        )
-        breeds = cursor.fetchall()
-        breed_objects = [DogBreed.create(name=breed[0], breed_group=breed[1], popularity=breed[2]) for breed in breeds]
+        self._load_raw(DogBreed)
 
-        [breed_object.save() for breed_object in breed_objects]
-        
+class DogLoader(StagingLoader, RawLoader):
+    col_mapping = {
+        'naam': Dog.name,
+        'id': Dog.id,
+        'eigenaar_bsn': Dog.owner_bsn,
+        'ras': Dog.breed,
+        'GeboorteDatum': Dog.date_of_birth,
+        'SterfteDatum': Dog.date_of_death
+    }
+    
+    def __init__(self, peewee_database):
+        super().__init__('stg_Dog', peewee_database)
 
+    def load_raw(self):
+        self._load_raw(Dog)
+        
