@@ -27,11 +27,14 @@ class StagingLoader(ABC):
 class RawLoader():
     def _load_raw(self, model):
         db = self.pw_db
-        db.create_tables([model])
+        #db.create_tables([model])
         
         data = self._fetch_all(self.col_mapping.keys())
         fields = self.col_mapping.values()
-        model.insert_many(data, fields=fields).execute()
+        with db.atomic() as txn:
+            model.insert_many(data, fields=fields).execute()
+            txn.commit()
+        
 
 class BreedLoader(StagingLoader, RawLoader):
     col_mapping = {
@@ -45,6 +48,8 @@ class BreedLoader(StagingLoader, RawLoader):
 
     def load_raw(self):
         self._load_raw(DogBreed)
+
+       
 
 class DogLoader(StagingLoader, RawLoader):
     col_mapping = {
@@ -62,3 +67,4 @@ class DogLoader(StagingLoader, RawLoader):
     def load_raw(self):
         self._load_raw(Dog)
         
+    

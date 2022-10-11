@@ -12,5 +12,4 @@ def test_can_load_data_from_staging_to_raw(pw_db):
     loader.load_raw()
     cursor = pw_db.connection().execute('SELECT * FROM DogBreed')
     assert len(cursor.fetchall()) == 26
-    
 

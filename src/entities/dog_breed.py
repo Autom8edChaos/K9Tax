@@ -1,12 +1,13 @@
 from peewee import *
 from dataclasses import dataclass
+from src.entities.db_connection import DbConnection
 
-db = SqliteDatabase('k9tax_db')
+# db = SqliteDatabase('k9tax_db')
 
 #@dataclass
 class BaseModel(Model):
     class Meta:
-        database = db
+        database = DbConnection.get_sqllite_file_db()
 
 class DogBreed(BaseModel):
     name = TextField()
@@ -15,8 +16,8 @@ class DogBreed(BaseModel):
 
 class Dog(BaseModel):
     name = TextField()
-    id = IntegerField()
+    id = IntegerField(null = True)
     owner_bsn = TextField()
     breed = TextField()
     date_of_birth = TextField()
-    date_of_death = TextField()
+    date_of_death = TextField(null = True)
