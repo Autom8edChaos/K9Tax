@@ -2,13 +2,18 @@ import pandas as pd
 from abc import ABC
 
 
-class RawLoader():
+class RawLoader(ABC):
     def _load_raw(self, model):
         db = self.pw_db
         db.create_tables([model])
         
         data = self._fetch_all(self.col_mapping.keys())
         fields = self.col_mapping.values()
+
+        # for record in data:
+        #     model.insert(record, fields=fields)
+        # return 
+        
         with db.atomic() as txn:
             model.insert_many(data, fields=fields).execute()
             txn.commit()

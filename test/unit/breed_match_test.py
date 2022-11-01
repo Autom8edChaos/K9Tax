@@ -23,11 +23,9 @@ def breedlist():
     pytest.param('bokser', 'boxer', id='near match'),
     pytest.param('Mastiff', 'mastiff', id='other match'),
     pytest.param('Boceron', 'boxer', id='variant'),
-    pytest.param('Boefjee', 'bouvier', id='ISSUE? Boefjee -> onbekend', marks=[pytest.mark.xfail]),
 ])
 def test_can_get_best_matching_dog_breed(breedlist, given, real):
     assert DogBreedLogic(breedlist).try_get_breed(given) == real
-
 
 @pytest.mark.parametrize('given,real', [
     pytest.param('aaaaxxxx', 'aaaaaaaa', id='threshold == .5'),
@@ -42,4 +40,5 @@ def test_unknown_breed_type_will_be_marked_as_onbekend(given, real):
 def test_ambigeous_match_selects_highest_ranked_breed():
     breedlist = ['no_match', 'candidate_y', 'candidate_x']
     assert DogBreedLogic(breedlist).try_get_breed('candidaat') == 'candidate_y'
-    
+
+

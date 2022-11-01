@@ -3,7 +3,7 @@ from src.entities.base_model import BaseModel
 
 
 class Breed(BaseModel):
-    name = TextField()
+    name = TextField(unique=True)
     breed_group = TextField()
     popularity = IntegerField()
 
