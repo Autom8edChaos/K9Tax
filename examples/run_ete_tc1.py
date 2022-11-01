@@ -1,4 +1,4 @@
-from run_fat_scripts import *
+from run_scripts import *
 
 excel_to_csv('/testcases/', 'testcases/testdata')
 run_K9Tax('/testcases/testdata')
