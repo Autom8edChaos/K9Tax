@@ -98,6 +98,20 @@ testing = ["pytest-benchmark", "pytest"]
 dev = ["tox", "pre-commit"]
 
 [[package]]
+name = "prettytable"
+version = "3.5.0"
+description = "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+wcwidth = "*"
+
+[package.extras]
+tests = ["pytest", "pytest-cov", "pytest-lazy-fixture"]
+
+[[package]]
 name = "py"
 version = "1.11.0"
 description = "library with cross-python path, ini-parsing, io, code, log facilities"
@@ -167,6 +181,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "pyyaml"
+version = "6.0"
+description = "YAML parser and emitter for Python"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "rapidfuzz"
 version = "2.11.1"
 description = "rapid fuzzy string matching"
@@ -210,10 +232,18 @@ notebook = ["ipywidgets (>=6)"]
 slack = ["slack-sdk"]
 telegram = ["requests"]
 
+[[package]]
+name = "wcwidth"
+version = "0.2.5"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "042b9e98deb09ac5dffb8138913f0eee9060a87195943409262f15d07b1dfec7"
+content-hash = "d1bed90cb9b6af5ee2fe47053c9b0ae32b11ff0bd7b08d13aa6e733dd66f30be"
 
 [metadata.files]
 attrs = []
@@ -225,13 +255,16 @@ packaging = []
 pandas = []
 peewee = []
 pluggy = []
+prettytable = []
 py = []
 pyparsing = []
 pytest = []
 python-dateutil = []
 python-levenshtein = []
 pytz = []
+pyyaml = []
 rapidfuzz = []
 six = []
 tomli = []
 tqdm = []
+wcwidth = []

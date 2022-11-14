@@ -1,0 +1,15 @@
+_info:
+    De eigenaar heeft 1 hond waarvan het ras onbekend is, het hoogste tarief
+    wordt gerekend
+
+hond:
+    - ras:     Delfzijlse Roodkuif
+    - naam: Thor
+      IsAlive: False
+    
+eigenaar:
+    - 
+
+verify_rule_eigenaar:
+    - KwartaalBedrag:    45.0
+

@@ -1,0 +1,63 @@
+hond:
+    naam:             Major
+    id:               hond_${tc_id}_${seq_id}
+    eigenaar_bsn:     $tc_id
+    ras:              Duitse herder
+    Geboortedatum:    2018-01-17
+    Sterftedatum:
+    IsAlive:          True
+
+eigenaar:
+    Naam:             J. Biden
+    straatnaam:       Laan van Pennsylvanië
+    huisnummer:       '1600'
+    postcode:         1234 AB
+    plaats:           Utrecht
+    BSN:              ${tc_id}
+    Wijkcode:         codeeen
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+verify_rule_eigenaar:
+    BSN:              $tc_id
+    KwartaalBedrag:  
+    Honden:          
+    TariefGroep:     
+
+verify_rule_hond:
+    ID:               hond_${tc_id}_${seq_id}
+    naam:   
+    
+verify_report_eigenaar:
+    BSN:    
+    KwartaalBedrage:
+
+verify_report_city:
+    BSN:              $tc_id
+    straatnaam:
+    huisnummer:
+    postcode:
+    KwartaalBedrag:

@@ -1,0 +1,5 @@
+naam,id,eigenaar_bsn,ras,Geboortedatum,Sterftedatum,IsAlive
+Major,hond_10000000_1,10000000,Duitse herder,2018-01-17,,True
+Wodan,hond_10000101_1,10000101,Boevier,2018-01-17,,True
+Major,hond_10000201_1,10000201,Delfzijlse Roodkuif,2018-01-17,,True
+Thor,hond_10000201_2,10000201,Duitse herder,2018-01-17,,False

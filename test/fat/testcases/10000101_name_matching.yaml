@@ -1,0 +1,16 @@
+_info:
+    De eigenaar heeft 1 hond, maar maakt tikfout in het ras. 
+    De hond wordt toch correct gematcht op het ras en het correcte
+    tarief wordt gerekend
+    
+
+hond:
+    - naam:    Wodan
+      ras:     Boevier    # ras matcht ongeveer op Bouvier
+
+eigenaar:
+    - Naam:    T. Kees 
+
+verify_rule_eigenaar:
+    - KwartaalBedrag:    33.09
+

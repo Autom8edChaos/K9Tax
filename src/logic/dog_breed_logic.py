@@ -4,13 +4,13 @@ import Levenshtein as lev
 class DogBreedLogic():
     MATCH_THRESHOLD = .5
     
-    def __init__(self, breeds):
-        self.breeds = breeds
+    def __init__(self, breeds:list = None):
+        self.breeds = breeds or ['boxer', 'mastiff', 'bouvier']
     
     def try_get_breed(self, breed_name: str):
         best_prob, best_breed = 65535, ''
         for breed in self.breeds:
-            prob = self.get_probability(breed_name, breed)
+            prob = self.get_similarity(breed_name, breed)
             if prob == 0:
                 return breed
             if prob < best_prob:
@@ -25,7 +25,7 @@ class DogBreedLogic():
         
     @classmethod
     @lru_cache
-    def get_probability(self, name1, name2):
+    def get_similarity(self, name1, name2):
         name1 = name1.lower()
         name2 = name2.lower()
         return lev.distance(name1, name2)
